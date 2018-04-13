@@ -10,8 +10,8 @@ import UIKit
 
 class AddViewController: UIViewController {
     
-    @IBOutlet var englishTextField: UITextView!
-    @IBOutlet var japaneseTextField: UITextView!
+    @IBOutlet var englishTextField: UITextField!
+    @IBOutlet var japaneseTextField: UITextField!
     
     var wordArray: [Dictionary<String, String>] = []
     

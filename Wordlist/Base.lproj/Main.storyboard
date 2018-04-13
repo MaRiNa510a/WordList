@@ -130,7 +130,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="70" id="UCu-YX-X35">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="70" id="UCu-YX-X35">
                                 <rect key="frame" x="0.0" y="28" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UCu-YX-X35" id="w1O-MR-jyf">
@@ -200,8 +200,16 @@
                         <viewLayoutGuide key="safeArea" id="2AV-vk-Qxh"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="scM-wH-X5t">
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="A0a-bx-jaq"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="A0a-bx-jaq">
+                            <connections>
+                                <action selector="saveWord" destination="N6h-ck-qtf" id="kiZ-uK-rnG"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="englishTextField" destination="Nv2-fX-uyu" id="Jyp-Z5-aRj"/>
+                        <outlet property="japaneseTextField" destination="yXS-e1-nMy" id="y76-ob-Yjf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SOa-MI-0T9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
