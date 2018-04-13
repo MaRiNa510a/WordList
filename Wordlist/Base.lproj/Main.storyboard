@@ -42,7 +42,7 @@
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="8J0-eQ-wWx" kind="presentation" id="qge-eX-d9a"/>
+                                    <segue destination="8J0-eQ-wWx" kind="modal" id="qge-eX-d9a"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -113,7 +113,7 @@
                     <connections>
                         <outlet property="answerLabel" destination="EvR-dq-89j" id="MFH-dB-Pec"/>
                         <outlet property="nextButton" destination="yDN-Fv-Enz" id="ow0-Oe-TuP"/>
-                        <outlet property="questionLabel" destination="hGi-sQ-n0I" id="VPp-Hc-0YY"/>
+                        <outlet property="questionLabel" destination="0Bk-Ee-GL8" id="BhH-gQ-CRA"/>
                         <segue destination="VKp-L8-Bmf" kind="presentation" identifier="toFinishView" id="9up-7P-ByY"/>
                     </connections>
                 </viewController>

@@ -36,6 +36,10 @@
                 </subviews>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="englishLabel" destination="CVY-Tq-iFb" id="sxT-lk-d1g"/>
+                <outlet property="japaneseLabel" destination="0Yw-4O-cHT" id="wff-O4-1Mm"/>
+            </connections>
         </tableViewCell>
     </objects>
 </document>
