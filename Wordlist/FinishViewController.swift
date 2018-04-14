@@ -9,10 +9,6 @@
 import UIKit
 
 class FinishViewController: UIViewController {
-    
-    @IBAction func back(segue: UIStoryboard) {
-        
-    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

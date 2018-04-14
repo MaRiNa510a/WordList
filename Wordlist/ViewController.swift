@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
     
     //スタート画面へ戻る
-    @IBAction func back(segue: UIStoryboard) {
+    @IBAction func back(segue: UIStoryboardSegue) {
         
     }
     //スタートボタンの処理
