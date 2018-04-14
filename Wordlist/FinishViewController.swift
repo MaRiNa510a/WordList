@@ -10,8 +10,8 @@ import UIKit
 
 class FinishViewController: UIViewController {
     
-    @IBAction func back(_sender: Any) {
-        dismiss(animated: true, completion: nil)
+    @IBAction func back(segue: UIStoryboard) {
+        
     }
 
     override func viewDidLoad() {

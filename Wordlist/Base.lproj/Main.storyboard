@@ -236,7 +236,7 @@
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="backWith_sender:" destination="VKp-L8-Bmf" eventType="touchUpInside" id="QJg-ih-DyG"/>
+                                    <action selector="backWithSegue:" destination="VKp-L8-Bmf" eventType="touchUpInside" id="w7f-4b-3ZO"/>
                                 </connections>
                             </button>
                         </subviews>
